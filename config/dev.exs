@@ -25,8 +25,7 @@ config :esbuild_sass_example, EsbuildSassExampleWeb.Endpoint,
   debug_errors: true,
   secret_key_base: "rXGIAyRiiO35516P5vKALOrSYVbPVTswpYvWe5sEBh0IIs5zw/2f/VL5FV0au2UX",
   watchers: [
-    # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
-    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
+    node: ["build.js", "--watch", cd: Path.expand("../assets", __DIR__)]
   ]
 
 # ## SSL Support

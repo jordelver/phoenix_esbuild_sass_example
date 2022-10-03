@@ -1,5 +1,14 @@
 /* This file is for your main application CSS */
-@import "./phoenix.css";
+
+// Import Bulma from node_modules/
+@import "~bulma";
+
+// Some regular SASS
+.look-ma {
+  .im-nested {
+    background: red;
+  }
+}
 
 /* Alerts and form errors used by phx.new */
 .alert {
