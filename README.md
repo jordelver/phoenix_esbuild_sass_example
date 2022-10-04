@@ -1,19 +1,11 @@
-# EsbuildSassExample
+# Setup Phoenix with Sass and Bulma using esbuild
 
-To start your Phoenix server:
+An example repo showing how to setup [Phoenix] to use [Sass] and [Bulma] with [`esbuild`].
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+Head over to [`add-sass-and-bulma`] to see the changes.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+[Phoenix]: https://www.phoenixframework.org
+[Sass]: https://sass-lang.com
+[Bulma]: https://bulma.io
+[`esbuild`]: https://esbuild.github.io
+[`add-sass-and-bulma`]: https://github.com/jordelver/phoenix_esbuild_sass_example/compare/add-sass-and-bulma
